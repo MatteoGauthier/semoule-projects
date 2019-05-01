@@ -186,3 +186,6 @@ svg::before {
 .nav-menu .nav-item {
     padding: 20px;
 }
+
+@media (min-width: 640px) {
+}

@@ -18,3 +18,5 @@ tippy('.icon-twitter', {
     theme: 'light',
     placement: 'bottom'
   })
+
+console.log('%cCette page est en cours de développement ! ⚠', 'color: black; background-color: white; border: 2px solid orange; padding: 5px; ')
