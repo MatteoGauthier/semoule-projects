@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/e8eb679d7d/UntitledProject/style.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/dc2cab887b/Semoulefr/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -44,10 +44,11 @@
     <link rel="stylesheet" href="https://unpkg.com/tippy.js@4/themes/light.css" />
     <script src="https://cdn.jsdelivr.net/gh/polonel/SnackBar/dist/snackbar.min.js"></script>
     <link rel="stylesheet" type="text/css" href="res/snackbar.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/shake.js@1.2.2/shake.min.js"></script>
 </head>
 
-<body onload="Snackbar.show({text: 'This website is in BETA', duration: 1115000,actionTextColor: '#af4c4c',}); ">
-    <header>
+<body onload="Snackbar.show({text: 'This website is in BETA', duration: 5000,actionTextColor: '#af4c4c',}); ">
+    <header class="">
         <nav>
             <div class="nav-nav">
                 <img class="logo" alt="Logo of the webpage" src="Logo Semoule.fr - Small.png">
@@ -56,9 +57,13 @@
                 <a href="#" class="nav-item">Infos</a>
             </div>
             <div class="nav-menu">
-                <a href="https://twitter.com/MattixNow?ref=semoule.fr" class="nav-item">
-                    <i class="icon-twitter"></i>
+                <div class="nav-item"> 
+                <a target="_blank" href="https://twitter.com/MattixNow?ref=semoule.fr">
+                    <i class="logoI" id="logo-twitter"><img src="res/twitter.svg" alt=""></i>
                 </a>
+                <a target="_blank" href="https://github.com/MattixNow?ref=semoule.fr">
+                    <i class="logoI" id="logo-github"><img src="res/github.svg" alt=""></i>
+                </a></div>
                 <!-- <a href="#"class="nav-item"><a href="#"href="#" title="Twitter"><img src="/res/iconmonstr-twitter-1.svg" alt=""></a></a>
             <a href="#"class="nav-item"><a href="#"href="#" title="Github"><img src="/res/iconmonstr-github-1.svg" alt=""></a></a> -->
             </div>
@@ -189,6 +194,9 @@
             </div>
         </div>
     </div>
+    
+    <a style="font-size:2em; margin: 100px;" href="https://ryanve.com/lab/dimensions?ref=semoule.fr">Test VIEWPORT</a>
+
     <script src="logic.js"></script>
 </body>
 

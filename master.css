@@ -20,9 +20,14 @@ a {
     text-decoration: none;
 }
 
+.hidden {
+    display: none;
+}
+
 header {
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 nav {
@@ -40,7 +45,6 @@ nav {
 
 .nav-menu {
     padding: 0;
-    width: 2;
 }
 
 .nav-item {
@@ -185,7 +189,68 @@ svg::before {
 
 .nav-menu .nav-item {
     padding: 20px;
+    display: flex;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 700px) {
+    .boxHero {
+        opacity: 1;
+        max-width: 331px;
+        margin: 26px;
+    }
+
+    #proj {
+        opacity: 1;
+        font-size: 44px;
+        margin: 8px 0;
+    }
+
+    .boxHero p {
+        opacity: 1;
+    }
+
+    .flexA {
+        margin-bottom: 0px;
+    }
+
+    .boxItem {
+        opacity: 1;
+        margin: 10px;
+    }
+    .logo {
+        opacity: 1;
+        width: 150px;
+        padding: 5px 5px;
+    }
+    .nav-item {
+        opacity: 1;
+        padding: 0;
+        font-size: 0.6em;
+    }
+    .nav-menu .nav-item {
+        padding: 0;
+        padding-right: 5px;
+        z-index: -12;
+    }
+    nav {
+        align-items: center;
+    }
+}
+@media (max-width:340px) {
+    .nav-menu {
+        display: none;
+    }
+}
+.logoI {
+    padding: 0 5px;
+    display: flex;
+    width: 1em;
+    height: 1em;
+    contain: strict;
+    -webkit-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
