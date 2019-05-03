@@ -29,6 +29,5 @@ shakeEvent.start();
 window.addEventListener('shake', shake, false);
 
 function shake() {
- // alert('shake!'+'semoule.fr/test');
-  window.open("http://semoule.fr/test");
+  alert('shake!');
 }
